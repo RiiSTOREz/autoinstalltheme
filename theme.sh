@@ -59,7 +59,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY FOXSTORE OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY RII STORE                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   TOKEN=$(jq -r '.token' token.json)
