@@ -93,7 +93,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/RiiSTOREz/autoinstalltheme/blob/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/RiiSTOREz/autoinstalltheme/main/C2.zip")
         break
         ;;
       2)
